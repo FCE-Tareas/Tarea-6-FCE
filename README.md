@@ -632,6 +632,26 @@ tiempo de subida = 6.9 ns - 0.3 ns = 6.6 ns
 
 EJERCICIOS CAPÍTULO XII
 
+1. Vea la figura 12-41: 
+
+a. ¿Qué área, A1 o A2, utilizaría para calcular la densidad
+de flujo? 
+
+b. Si Φ 28 mWb, ¿cuál es la densidad de flujo en
+teslas?
+
+![image](https://user-images.githubusercontent.com/85320165/127251129-33f2e8d6-19c4-4c92-a78a-9a8d6f196223.png)
+
+![image](https://user-images.githubusercontent.com/85320165/127248320-55dc8919-0ade-484d-84a0-47009b41e107.png)
+
+3. El toroide de la figura 12-42 tiene una sección transversal circular y Φ =628 uWb. Si r1 8 cm y r2 12 cm, ¿cuál es la densidad de flujo en teslas?
+
+![image](https://user-images.githubusercontent.com/85320165/127251193-3106cf7c-078b-473f-ad42-8d9b79751cce.png)
+
+![image](https://user-images.githubusercontent.com/85320165/127250826-d93d8f73-e030-423c-ace2-bf9a57a70f66.png)
+
+![image](https://user-images.githubusercontent.com/85320165/127250897-b73f0e53-2d21-4f47-bac0-62f32a3526c7.png)
+
 7. Para la sección del núcleo de hierro de la figura 12-45, si Φ_1=12 mWb y Φ_3=2 mWb, ¿cuánto vale B_2?
 
 Φ_1=Φ_2+Φ_3
@@ -860,20 +880,15 @@ Bg=0,2114T
 
 ɸ=1,06x10^-4 Wb
 
+
 4. VIDEO
 
-https://youtu.be/uOtd7f3AAoI
 
 5. CONCLUSIONES
 
 * En un circuito DC si se conecta una batería a un condensador, circulará por él una corriente continua, esta situación se mantiene hasta que el flujo de electrones se detiene cuando la corriente deja de circular comportándose el capacitor como un circuito abierto para la corriente continua.
-
 * La presencia de un switch en un circuito RC, al momento de tenerlo abierto el capacitor tendra una carga de 0, pero en el instante donde el switch se cierra el capacitor se cargara obteniendo todo el voltaje suministrado por la fuente dc y solo le lo podra descargar realizando un corto circuito.
-
-* El magnetismo se refiere a la fuerza que actúa entre los imanes y los materiales magnéticos. Asi como se sabe que los imanes atraen partículas de hierro, causan reflexión en las agujas de las brújulas, atraen o repelen a otros imanes.
 
 6. BIBLIOGRAFÍA
 
 Etitudela. (14 de Abril de 2010). Electrotecnia. Obtenido de http://www.etitudela.com/Electrotecnia/principiosdelaelectricidad/tema1.3/contenidos/01d56994aa1079224.html
-
-Campo eléctrico. (Noviembre,2019). from. http://www.sc.ehu.es/sbweb/fisica_/elecmagnet/condensador/rc/rc.html
