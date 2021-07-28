@@ -797,8 +797,14 @@ Bg=0,2114T
 ɸ=1,06x10^-4 Wb
 
 
-45. VIDEO
+4. VIDEO
+
 
 5. CONCLUSIONES
 
+* En un circuito DC si se conecta una batería a un condensador, circulará por él una corriente continua, esta situación se mantiene hasta que el flujo de electrones se detiene cuando la corriente deja de circular comportándose el capacitor como un circuito abierto para la corriente continua.
+* La presencia de un switch en un circuito RC, al momento de tenerlo abierto el capacitor tendra una carga de 0, pero en el instante donde el switch se cierra el capacitor se cargara obteniendo todo el voltaje suministrado por la fuente dc y solo le lo podra descargar realizando un corto circuito.
+
 6. BIBLIOGRAFÍA
+
+Etitudela. (14 de Abril de 2010). Electrotecnia. Obtenido de http://www.etitudela.com/Electrotecnia/principiosdelaelectricidad/tema1.3/contenidos/01d56994aa1079224.html
