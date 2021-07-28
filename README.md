@@ -24,6 +24,11 @@ CAPÍTULO XI
 
 ![MPC1PII (2)](https://user-images.githubusercontent.com/84390820/127261236-9c74c917-47fe-47c6-8581-56e19574d737.jpeg)
 
+![24ae6d2bb2ce4c63932a6940ef9dd8cc-0001](https://user-images.githubusercontent.com/84390686/127318266-d34e7887-db55-4500-8d7f-677a5a2dd1a2.jpg)
+
+![image](https://user-images.githubusercontent.com/84390686/127318289-c0216f5f-a001-4510-acda-2ca8c20f4fa4.png)
+
+
 3. EXPLICACIÓN Y RESOLCIÓN DE EJERCICIOS O PROBLEMAS
 
 EJERCICIOS CAPÍTULO XI
@@ -624,6 +629,173 @@ Vc = 0.1 * 3 = 0.3 ns
 2.3 * 3 = 6.9 ns
 
 tiempo de subida = 6.9 ns - 0.3 ns = 6.6 ns 
+
+EJERCICIOS CAPÍTULO XI
+
+17. Se corta un espacio de 0.5 mm en la porcion del nucleo de acero fundido de la figura 12-48. Encuentre la corriente para ɸ=0.128 mWb. No tome en cuenta el desbordamiento. 
+
+![image](https://user-images.githubusercontent.com/84390686/127318380-af95fc3f-b4d7-44cb-afb9-e42f98ff80e6.png)
+
+Ibrecha= 0,5 mm * 1m/1000mm
+
+Ibrecha= 0,5x10^-3 m
+
+Iacero= 0,14 –(0,5x10^-3)
+
+Iacero= 0,1395m
+
+B= ɸ / A = 0,128x10^-3 Wb / 3,2x10^-4 m^2
+
+B= 0,4 T
+
+Hhierro = 1050 
+
+Hacero= 300
+
+Hg=318400
+
+NI= Hhierro* Hhierro + Hacero* Hacero + Ibrecha* Ibrecha
+
+NI= 264,05/300
+
+19. El núcleo de hierro fundido de la figura 12-49 mide 1 cm = 1.5 cm, a 0.3 mm, la densidad de flujo del espacio de aire es de 0.426 T y N 600 vueltas. Los extremos de la pieza tienen forma semicircular. Tomando en cuenta el desbordamiento, encuentre la corriente I.
+
+![image](https://user-images.githubusercontent.com/84390686/127318439-bb146e86-e883-4e38-9c1a-0106fd01e754.png)
+
+B= 0,426T
+
+Hhierro = 1150
+
+Ihierro= 3,2+(3,14 * 1,5) + (3,14 * 1)
+
+Ihierro=0,1105m
+
+Ig=0,3mm
+
+Ig=0,3x10^-3
+
+ɸ= B*A
+
+ɸ= 0,426 * 1x10^-2 *1,5x10^-2
+
+ɸ= 0,639x10^-4
+
+Bg= 639x10^-4/1,5x10^-4
+
+Bg= 0,405T
+
+H= 322672,78 At/m
+
+NI= Hhierro*Hierro + Hg*Ig
+
+NI= 0,18A
+
+21. Para el circuito de la figura 12-51, 30 Xµ Wb y N 2000 vueltas. No tome en cuenta el desbordamiento y encuentre la corriente I.
+
+![image](https://user-images.githubusercontent.com/84390686/127318469-08ff9c69-51b6-4800-ad15-a38b25aa283b.png)
+
+A= 0,5*1/1000
+
+A= 0,0005 m^2
+
+B=30x10^-6/0,0005
+
+B= 0,06T
+
+I= 1100/2000
+
+I= 0,55A
+
+23. Una segunda bobina de 450 vueltas con I2= 4 amperes se devana en la porción de acero fundido de la figura 12-52. Su flujo está en oposición al flujo producido por la bobina original. El flujo resultante es de 35 000 líneas en dirección contraria a la de las manecillas del reloj. Encuentre la corriente I1.
+ 
+![image](https://user-images.githubusercontent.com/84390686/127318499-50bacd5f-226c-465b-ad0a-e30a5d456ae0.png)
+
+B= ɸ/A
+
+B1= 0,54T
+
+B2= 0,27T
+
+H= 7,96x10^5*0,27
+
+H=214920
+
+-600I1+450*4=1900*0,0508
+
+600I1=503,58
+
+I=0,84A 
+
+25. Si el circuito de la figura 12-53 no tiene espacio y \Phi 3= 0.2 mWb, encuentre I.
+
+![image](https://user-images.githubusercontent.com/84390686/127318531-541fb917-c202-476a-a965-31729f45216c.png)
+
+B= ɸ/A
+
+B= 0,5T
+
+ɸ= B*A
+
+ɸ= 5,68x10^-4
+
+I= 3,8A
+
+27. Si NI = 644 Av para el núcleo de acero fundido de la figura 12-54, encuentre el flujo, \Phi.
+
+![image](https://user-images.githubusercontent.com/84390686/127318563-72d040c1-2652-4317-8c63-53f4662bdf1c.png)
+
+R1=6cm
+
+R2=6-2 = 4cm
+
+I= 2*3,14*5
+
+I= 31,4*1/1000
+
+I=0,314m
+
+NI=HL
+
+644=H(0,314)
+
+H= 2051At/m
+
+B= 1,41 T
+
+A= 3,14*(r1-r2)^2/2^2
+
+A= 3,14*2^2/2^2
+
+A= 3,14 cm^2
+
+A= 3,14x10^-4 m^2
+
+ɸ= B*A
+
+ɸ= 4,4x10^-4 Wb
+
+29. Para el relevador de la figura 12-34, si la cara del polo mide 2 cm por 2,5 cm y se requiere una fuerza de 2 libras para cerrar el espacio, ¿cuánto flujo se necesita (en webers)?
+
+![image](https://user-images.githubusercontent.com/84390686/127318601-3bebeb0a-7ec1-4da1-83ad-1f9d8761558d.png)
+
+Ag= 2*2,5 
+
+Ag= 5 cm^2
+
+F= 2lb 
+
+F= 8,9N
+
+F= ((B^2)g * Ag) / 2* 4(3,14) *10^-7
+
+8,9=(B^2)g*5x10^-7/5x10^-4
+
+Bg=0,2114T
+
+ɸ= Bg*Ag
+
+ɸ=1,06x10^-4 Wb
+
 
 45. VIDEO
 
