@@ -632,6 +632,70 @@ tiempo de subida = 6.9 ns - 0.3 ns = 6.6 ns
 
 EJERCICIOS CAPÍTULO XII
 
+7. Para la sección del núcleo de hierro de la figura 12-45, si Φ_1=12 mWb y Φ_3=2 mWb, ¿cuánto vale B_2?
+
+Φ_1=Φ_2+Φ_3
+
+Φ_2=Φ_1-Φ_3
+
+Φ_2=12-2=10 mWb
+
+B_2=Φ_2/A_2 =(10*10^(-3)  Wb)/(0,01 m^2 )=1 T
+
+Φ_2/A_2 =(10*10^(-3)  Wb)/(0,01 m^2 )=1 T
+
+9. Un núcleo con dimensiones de 2 cm X 3 cm tiene una intensidad magnética de 1200 Av/m. ¿Qué valor tiene Φ si el núcleo es de hierro fundido? ¿Si es de acero fundido? ¿Si es de hoja de acero con FA 0,94?
+
+A=2 cm*3 cm=6 〖cm〗^2=6*10^(-4)  m^2
+
+B_(hierro fundido)=0,44 T
+
+Φ=B*A=0,44 T*(6*10^(-4)  m^2 )=2,64*10^(-4)  Wb=264 µWb
+
+B_(acero fundido)=1,23 T
+
+Φ=B*A=1,23 T*(6*10^(-4)  m^2 )=7,38*10^(-4)  Wb=738 µWb
+
+B_(acero fundido)=1,43 T     ;     factor de apilamiento=0,94
+
+Factor de apilamiento=(Area efectiva)/(Area fisica)
+
+Area efectiva=Factor de apilamiento*Area fisica
+
+Area efectiva,〖 A〗_cff=0,94*(6*10^(-4) )=5,64*10^(-4)  m^2
+
+Φ=B*A_cff=1,43 T*(5,64*10^(-4)  Wb)=8,0652*10^(-4)  Wb≈807 µWb
+
+11. Considere una vez más la figura 12-42. Si I=10 A, N=40 vueltas, r_1=5 cm y r_2=7 cm, ¿qué valor tiene H en amperes-vuelta por metro?
+
+l=2π((r_1+r_2)/2)=2π((5+7)/2)=37,7 cm=0,377 m
+
+H=NI/l=(40*10)/0,377=1061 At/m
+
+13. Suponga que una bobina N_2 que lleva la corriente I_2 se añade al brazo 3 del núcleo que se muestra en la figura 12-47 y que produce un flujo dirigido hacia arriba. Sin embargo, suponga que el flujo neto en el brazo 3 aún va hacia abajo. Escriba las ecuaciones de la ley de Ampère para este caso.
+
+∑_ONI=∑_OHl
+
+N_1 I_1=H_1 l_1+H_2 l_2
+
+∑_ONI=∑_OHl
+
+-N_2 I_2=H_3 l_3-H_2 l_2
+
+N_2 I_2=H_2 l_2-H_3 l_3
+
+15. Encuentre la corriente I en la figura 12-48 si Φ=0,16 mWb
+
+B=Φ/A=(0,16*10^(-3)  Wb)/(3,2*10^(-4)  m^2 )=0,5 T
+
+H_hierro=1550 At/m     ;    H_acero=350 At/m
+
+NI=H_hierro*I_hierro+H_acero*I_acero
+
+300 I=1550*0,06+350*0,14
+
+I=142/300=0,47 A
+
 17. Se corta un espacio de 0.5 mm en la porcion del nucleo de acero fundido de la figura 12-48. Encuentre la corriente para ɸ=0.128 mWb. No tome en cuenta el desbordamiento. 
 
 ![image](https://user-images.githubusercontent.com/84390686/127318380-af95fc3f-b4d7-44cb-afb9-e42f98ff80e6.png)
