@@ -860,15 +860,20 @@ Bg=0,2114T
 
 ɸ=1,06x10^-4 Wb
 
-
 4. VIDEO
 
+https://youtu.be/uOtd7f3AAoI
 
 5. CONCLUSIONES
 
 * En un circuito DC si se conecta una batería a un condensador, circulará por él una corriente continua, esta situación se mantiene hasta que el flujo de electrones se detiene cuando la corriente deja de circular comportándose el capacitor como un circuito abierto para la corriente continua.
+
 * La presencia de un switch en un circuito RC, al momento de tenerlo abierto el capacitor tendra una carga de 0, pero en el instante donde el switch se cierra el capacitor se cargara obteniendo todo el voltaje suministrado por la fuente dc y solo le lo podra descargar realizando un corto circuito.
+
+* El magnetismo se refiere a la fuerza que actúa entre los imanes y los materiales magnéticos. Asi como se sabe que los imanes atraen partículas de hierro, causan reflexión en las agujas de las brújulas, atraen o repelen a otros imanes.
 
 6. BIBLIOGRAFÍA
 
 Etitudela. (14 de Abril de 2010). Electrotecnia. Obtenido de http://www.etitudela.com/Electrotecnia/principiosdelaelectricidad/tema1.3/contenidos/01d56994aa1079224.html
+
+Campo eléctrico. (Noviembre,2019). from. http://www.sc.ehu.es/sbweb/fisica_/elecmagnet/condensador/rc/rc.html
