@@ -630,7 +630,7 @@ Vc = 0.1 * 3 = 0.3 ns
 
 tiempo de subida = 6.9 ns - 0.3 ns = 6.6 ns 
 
-EJERCICIOS CAPÍTULO XI
+EJERCICIOS CAPÍTULO XII
 
 17. Se corta un espacio de 0.5 mm en la porcion del nucleo de acero fundido de la figura 12-48. Encuentre la corriente para ɸ=0.128 mWb. No tome en cuenta el desbordamiento. 
 
