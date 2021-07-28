@@ -348,72 +348,284 @@ ic = -50 / 10x10^3 * e^10t A
 
 ic = -5 e^-10t mA 
 
-EJERCICIOS CAPÍTULO XII
+23. Para el circuito de la figura 11-53, suponga que el capacitor está cargado a 50 V antes de que el interruptor se cierre.
 
-7. Para la sección del núcleo de hierro de la figura 12-45, si Φ_1=12 mWb y Φ_3=2 mWb, ¿cuánto vale B_2?
+![image](https://user-images.githubusercontent.com/84390820/127266493-de8b893e-0dc4-41ec-9207-396d2e6d8be0.png)
 
-Φ_1=Φ_2+Φ_3
+Vo = 50 V
 
-Φ_2=Φ_1-Φ_3
+R = 25 kΩ
 
-Φ_2=12-2=10 mWb
+C = 20 uF
 
-B_2=Φ_2/A_2 =(10*10^(-3)  Wb)/(0,01 m^2 )=1 T
+RC = (25 kΩ)(20uF)
 
-9. Un núcleo con dimensiones de 2 cm X 3 cm tiene una intensidad magnética de 1200 Av/m. ¿Qué valor tiene Φ si el núcleo es de hierro fundido? ¿Si es de acero fundido? ¿Si es de hoja de acero con FA 0,94?
+RC = 0.5 s
 
-A=2 cm*3 cm=6 〖cm〗^2=6*10^(-4)  m^2
+a. Determine la ecuación para el voltaje de descarga vC.
 
-B_(hierro fundido)=0,44 T
+Vc = Vo * e^(-t/RC)
 
-Φ=B*A=0,44 T*(6*10^(-4)  m^2 )=2,64*10^(-4)  Wb=264 µWb
+Vc = 50 * e^(-t/0.5)
 
-B_(acero fundido)=1,23 T
+Vc = 50 * e^(-2t) V
 
-Φ=B*A=1,23 T*(6*10^(-4)  m^2 )=7,38*10^(-4)  Wb=738 µWb
+b. Determine la ecuación para la corriente de descarga iC.
 
-B_(acero fundido)=1,43 T     ;     factor de apilamiento=0,94
+Ic = -Vo/R * e^(-t/RC)
 
-Factor de apilamiento=(Area efectiva)/(Area fisica)
+Ic = -50V/25kΩ * e^(-t/0.5)
 
-Area efectiva=Factor de apilamiento*Area fisica
+Ic = -2 e^(-2t) mA
 
-Area efectiva, A_cff=0,94*(6*10^(-4) )=5,64*10^(-4)  m^2
+c. Determine la constante de tiempo del circuito.
 
-Φ=B*A_cff=1,43 T*(5,64*10^(-4)  Wb)=8,0652*10^(-4)  Wb≈807 µWb
+۲ = RC
 
-11. Considere una vez más la figura 12-42. Si I=10 A, N=40 vueltas, r_1=5 cm y r_2=7 cm, ¿qué valor tiene H en amperes-vuelta por metro?
+RC = 0.5 s
 
-l=2π((r_1+r_2)/2)=2π((5+7)/2)=37,7 cm=0,377 m
+۲ = 0.5 s 
 
-H=NI/l=(40*10)/0,377=1061 At/m
+d. Calcule vC e iC en t = 0+ s, t = ۲ , 2, 3, 4, y 5۲.
 
-13. Suponga que una bobina N_2 que lleva la corriente I_2 se añade al brazo 3 del núcleo que se muestra en la figura 12-47 y que produce un flujo dirigido hacia arriba. Sin embargo, suponga que el flujo neto en el brazo 3 aún va hacia abajo. Escriba las ecuaciones de la ley de Ampère para este caso.
+en t = 0
 
-∑_ONI=∑_OHl
+Vc = 50 V 	Ic = -2 mA
 
-N_1 I_1=H_1 l_1+H_2 l_2
+en t = 0.5 
 
-∑_ONI=∑_OHl
+Vc = 18.394 V 	Ic = -0.7357 mA
 
--N_2 I_2=H_3 l_3-H_2 l_2
+en t  = 2۲ = 1 
 
-N_2 I_2=H_2 l_2-H_3 l_3
+Vc = 6.7668 V	Ic = -0.2706 mA
 
-15. Encuentre la corriente I en la figura 12-48 si Φ=0,16 mWb
+en t = 3۲ = 1.5 
 
-B=Φ/A=(0,16*10^(-3)  Wb)/(3,2*10^(-4)  m^2 )=0,5 T
+Vc = 2.4894 V 	Ic = -0.0996 mA 
 
-H_hierro=1550 At/m     ;    H_acero=350 At/m
+en t = 4۲ = 2
 
-NI=H_hierro*I_hierro+H_acero*I_acero
+Vc = 0.9157 V
 
-300 I=1550*0,06+350*0,14
+Ic = -0.0366 mA
 
-I=142/300=0,47 A
+en t = 5۲ = 2.5 
+
+Vc = 0.3369 V 
+
+Ic = -0.0135 mA
+
+e. Grafique los resultados del inciso (d) con el eje del tiempo con escalas de
+segundos y de constantes de tiempo.
+
+Volataje  (V) - Tiempo (s) 
+
+![image](https://user-images.githubusercontent.com/84390820/127267781-ba5f4e0f-b2c6-4d61-a382-d1fec43fad68.png)
+
+Corriente (mA) - Tiempo (s) 
+
+![image](https://user-images.githubusercontent.com/84390820/127267820-0c4f00fa-c427-4653-8bfb-e1e3775ea1ab.png)
+
+25. Un capacitor de 4.7 F se carga a 43 volts. Si un resistor de 39 kse conecta al capacitor, ¿cuál es el voltaje, 200 ms después de que se conecta el resistor?
+
+Vo = 43 V 
+
+Vc = Vo * e ^(-t/RC) V 
+
+Vc = 43 * e ^(-t/39 * 10^(3) * 4.7 x 10 ^(-6)) V 
+
+Vc = 43 * e ^(-5.456 t) V 
+
+Vc ( 200 ms) = 43 * e (-5.456 * 200 * 10^(-3) t)
+
+Vc = 14.45 V
+
+27. Para la figura 11-54, sea E 200 V, R2 1 k y C 0.5 F. Después de que el capacitor está totalmente cargado en la posición 1, el interruptor es movido a la posición 2.
+
+![image](https://user-images.githubusercontent.com/84390820/127268538-83bc0e8d-d75f-4fd9-8b2b-d5c390af2f15.png)
+
+a. ¿Qué voltaje tiene el capacitor inmediatamente después de que el interruptor es movido a la posición 2? ¿Cuál es la corriente?
+
+![image](https://user-images.githubusercontent.com/84390820/127269529-eff8d1f9-0fac-481e-bb60-5db266a6c2fc.png)
+
+Vc = 200 V
+
+iC = -12.5 mA 
+
+b. ¿Cuál es la constante de tiempo de descarga?
+
+۲ = RTH * C 
+
+۲ = 8 ms 
+
+c. Determine las ecuaciones de descarga para Vc e Ic 
+
+Vo = 200 V
+
+Vc = 200e^(-125t) V 
+
+Ic = -12.5 e ^(-125t) mA
+
+29. Los capacitores de la figura 11-55 están descargados. El interruptor se cierra en t =0. Determine la ecuación para vC. Calcule vC a una constante de tiempo usando la ecuación y la curva de constante de tiempo universal. Compare sus respuestas.
+
+![image](https://user-images.githubusercontent.com/84390820/127269774-3cb8c522-0ee1-47c4-b20b-ebcd563dff40.png)
+
+![image](https://user-images.githubusercontent.com/84390820/127269798-55126c83-d434-42ce-a18e-f0c91ae445f7.png)
+
+cuando t = 0 
+
+۲ = R * C 
+
+۲ = (26.9k) * (6.9uF)
+
+۲ = 185.61 ms
+
+![image](https://user-images.githubusercontent.com/84390820/127270077-15c733f1-2a1f-4240-9b96-8e8edc539cdf.png)
 
 
-4. VIDEO
+Vc = 45 ( 1 - e^(-5.388t)) V
+
+en t = 1۲
+
+Vc = 28.4 V 
+
+31. Repita el problema 30, del inciso (a) al (c) para el circuito de la figura 11-57.
+
+![image](https://user-images.githubusercontent.com/84390820/127270136-c727df8b-7b63-4d36-a227-184c50db5955.png)
+
+VR60 = 60/90(90) = 60 V 
+
+VC = 60 ( 1 - e ^(-500t)) V 
+
+Ic = VTH / RTH e ^(-t/۲)
+
+Ic = 1.5 e ^(-500t) A
+
+Vc (0) = 0 V
+
+Vc (2) = 37.93 V
+
+Vc (4) = 51.88 V
+
+Vc (6) = 57.01 V 
+
+Vc (8) = 58.90 V 
+
+Vc (10) = 59.595 V 
+
+Vc (12) = 59.85 V 
+
+Ic (0) = 1.5 A 
+
+Ic (2) = 0.55 A 
+
+Ic (4) = 0.2 A 
+
+Ic (6) = 70 mA 
+
+Ic (8) = 27 mA 
+
+Ic (10) = 1..10 mA
+
+Ic (12) = 4.08 mA
+
+33. Para el circuito de la figura 11-54, el capacitor está inicialmente descargado. El interruptor es movido primero a la posición de carga y luego a la de descarga, proporcionando la corriente que se muestra en la figura 11-58. El capacitor se carga totalmente en 12.5 s. Determine E, R2 y C.
+
+![image](https://user-images.githubusercontent.com/84390820/127270781-106e673e-e2b2-4b2a-9765-634e57c88a54.png)
+![image](https://user-images.githubusercontent.com/84390820/127270807-4279d426-dfe7-46e2-9a6d-7d3647deaa2f.png)
+
+a. Ic = E/ RT e^(-(o)/RC)
+
+3.6 mA = E/ (10 + 15) 
+
+E = 90 V 
+
+Ic (0) = - E/ RT e^(-(o)/RC)
+
+-3 = -90/15+R2
+
+R2 = 15 Ω
+
+5 RC = 12.5 
+
+C = 100 uF 
+
+35. Determine los voltajes del capacitor y la corriente de la fuente para el circuito de la figura 11-60 después de que se alcanzó el estado estable.
+
+![image](https://user-images.githubusercontent.com/84390820/127271186-e1f087ae-9af7-4cc9-a681-b04ad53bbad6.png)
+
+VR30Ω = 30 Ω / 160 Ω (80V) = 15 V
+
+VR20Ω = 20 Ω / 160 Ω (80V) = 10 V
+
+VR110Ω = 110 Ω / 160 Ω (80V) = 55 V
+
+VC1 = 80 V - 15 V = 65 V 
+
+VC2 = 10 V 
+
+VC3 = 55 V 
+
+IT = 80 V / 160 = 0.5 A 
+
+37. Para el circuito de alarma de la figura 11-32, si la entrada desde el sensor es de 5 V, R = 750 k y la alarma es activada en 15 s cuando vC = 3.8 V, ¿qué valor tiene C?
+
+![image](https://user-images.githubusercontent.com/84390820/127271499-223d76af-90cb-441d-ba9e-9bdf74359bf7.png)
+
+ t = 15 s 
+ 
+ E = 5V 
+ 
+ R = 750 * 1000 Ω
+ 
+ VC = 3.8 V
+ 
+ -15/(750 * 1000) C = ln((5-3.8)/5)
+ 
+ C = 14 uF
+ 
+ 39. Considere la forma de onda de la figura 11-62.
+
+![image](https://user-images.githubusercontent.com/84390820/127271730-2806a331-9c47-4be6-bb2d-ca3b41cb3831.png)
+
+a. ¿Cuál es el periodo? 
+
+T = 5 us
+
+b. ¿Cuál es el ciclo de trabajo?
+
+2 us = 40 % ciclo de trabajo porcentual
+
+c. ¿Cuál es el VRP?
+
+VRP = 200 000 pulsos/s 
+
+41. Determine el tiempo de subida, de bajada y el ancho de pulso para el pulso de la figura 11-64.
+
+![image](https://user-images.githubusercontent.com/84390820/127271946-b4a0a599-1753-4a85-b7a5-62716f0ae9e0.png)
+
+t subida = 2.9 - 2.1 = 0.8 us
+
+t subida = t bajada = 0.8 us
+
+tp = 6.5 - 2.5
+
+tp = 4us
+
+43. Se aplica un escalón al circuito de la figura 11-66. Si R=150Ω y C = 20 pF, estime el tiempo que tarda en subir el voltaje de salida
+
+![image](https://user-images.githubusercontent.com/84390820/127272085-73e99afd-0629-4c5e-a758-f51d4a613f81.png)
+
+۲ = RC = (1.5 * 100) (20 * 10^(-12)) = 3 * 10 ^(-9) s = 3ns
+
+Vc = 0.1 * 3 = 0.3 ns
+
+2.3 * 3 = 6.9 ns
+
+tiempo de subida = 6.9 ns - 0.3 ns = 6.6 ns 
+
+45. VIDEO
 
 5. CONCLUSIONES
 
