@@ -18,9 +18,9 @@ MARCO TEÓRICO
 
 CAPÍTULO XI
 
-![image](https://user-images.githubusercontent.com/85137398/127259096-2c1109a4-437c-4812-bb7e-039ec46da2ff.png)
+![Diagrama en blanco (8)](https://user-images.githubusercontent.com/85137398/127264364-befc57b2-aeaa-47c3-b6f6-98676524be94.png)
 
-![image](https://user-images.githubusercontent.com/85137398/127259104-87663074-cef1-4d57-961a-2fd2521d6588.png)
+![Diagrama en blanco (6)](https://user-images.githubusercontent.com/85137398/127264381-5b2eb9cf-764c-426f-878f-60922225148b.png)
 
 ![MPC1PII (2)](https://user-images.githubusercontent.com/84390820/127261236-9c74c917-47fe-47c6-8581-56e19574d737.jpeg)
 
