@@ -22,6 +22,8 @@ CAPÍTULO XI
 
 ![image](https://user-images.githubusercontent.com/85137398/127259104-87663074-cef1-4d57-961a-2fd2521d6588.png)
 
+![MPC1PII (2)](https://user-images.githubusercontent.com/84390820/127261236-9c74c917-47fe-47c6-8581-56e19574d737.jpeg)
+
 3. EXPLICACIÓN Y RESOLCIÓN DE EJERCICIOS O PROBLEMAS
 
 EJERCICIOS CAPÍTULO XI
