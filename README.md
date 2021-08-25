@@ -881,6 +881,8 @@ Bg=0,2114T
 ɸ=1,06x10^-4 Wb
 
 
+t\ =\ 5\tau
+
 4. VIDEO
 
 https://youtu.be/uOtd7f3AAoI
